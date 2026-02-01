@@ -1,0 +1,49 @@
+.streak-card {
+  background: linear-gradient(135deg, rgba(255, 107, 0, 0.2) 0%, rgba(255, 159, 64, 0.2) 100%);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 1.5rem;
+  border: 1px solid rgba(255, 159, 64, 0.3);
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.streak-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(255, 107, 0, 0.3);
+}
+
+.streak-icon {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.streak-content {
+  flex: 1;
+}
+
+.streak-title {
+  font-size: 0.95rem;
+  font-weight: 500;
+  opacity: 0.9;
+  margin: 0 0 0.5rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.streak-value {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ff9f40;
+  margin: 0.5rem 0;
+  line-height: 1;
+}
+
+.streak-subtitle {
+  font-size: 0.85rem;
+  opacity: 0.8;
+  margin: 0;
+}
+
